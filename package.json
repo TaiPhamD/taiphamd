@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "export NODE_ENV=development && vuepress dev docs",
-    "build": "export NODE_ENV=production && vuepress build docs"
+    "build": "export NODE_ENV=production && vuepress build docs",
+    "deploy":"cp -R docs/.vuepress/dist/* ../taiphamd.github.io"
   }
 }
