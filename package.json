@@ -4,12 +4,14 @@
     "@vuepress/theme-default": "^1.4.1"
   },
   "devDependencies": {
+    "mermaid": "^8.5.0",
     "vuepress": "^1.4.1",
-    "vuepress-plugin-mathjax": "^1.2.8"
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-mermaidjs": "^1.4.0"
   },
   "scripts": {
     "dev": "export NODE_ENV=development && vuepress dev docs",
     "build": "export NODE_ENV=production && vuepress build docs",
-    "deploy":"cp -R docs/.vuepress/dist/* ../taiphamd.github.io"
+    "deploy": "cp -R docs/.vuepress/dist/* ../taiphamd.github.io"
   }
 }

@@ -1,8 +1,16 @@
 ## Music Transcription
 
-The goal of this music is to create a system that would analyze a music track then transcripe the vocal track into cello notes and the instrumental into piano notes.
+The goal of this project is to create a system that would analyze a music track then transcripe the vocal track into cello notes and the instrumental into piano notes.
 
 The reason I choose cello as the instrument that most closely related to the vocal track is based on this [paper](https://newt.phys.unsw.edu.au/jw/reprints/Voicelikeness.pdf)
+
+``` mermaid
+graph TD
+AudioTrack --> Analysis{Track separation}
+Analysis -->|Vocal| D[Cello Pitch estimation]
+Analysis -->|Instrumental| E[Piano Pitch estimation]
+```
+
 
 ### Technical paper
 
