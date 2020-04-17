@@ -6,6 +6,7 @@ module.exports = {
       sidebar: [
         ['/', 'Overview'],
         '/ML/',
+        ['/PROJ/','Projects']
       ] 
     },  
     plugins: [
