@@ -1,3 +1,2 @@
-## A simple equation
-
-$$f(x, y, z)=x^{yz}+z^y+\lambda^\alpha$$
+# Overview
+My collection of notes while studying

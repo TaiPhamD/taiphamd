@@ -1,12 +1,18 @@
 // .vuepress/config.js
 module.exports = {
-    title: 'Peter Pham',
+    title: 'Peter\'s Notes',
     description: 'Collection of learning notes',
+    themeConfig: {
+      sidebar: [
+        ['/', 'Overview'],
+        '/ML/',
+      ] 
+    },  
     plugins: [
       [
         'vuepress-plugin-mathjax',
         {
-          target: 'chtml',
+          target: 'svg',
           macros: {
             '*': '\\times',
           },
