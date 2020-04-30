@@ -7,8 +7,8 @@ The reason I choose cello as the instrument that most closely related to the voc
 ``` mermaid
 graph TD
 AudioTrack --> Analysis{Track separation}
-Analysis -->|Vocal| D[Cello Pitch estimation]
-Analysis -->|Instrumental| E[Piano Pitch estimation]
+Analysis -->|Vocal| C[Cello Pitch estimation]
+Analysis -->|Instrumental| P[Piano Pitch estimation]
 ```
 
 
